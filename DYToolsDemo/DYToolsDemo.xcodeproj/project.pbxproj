@@ -15,8 +15,8 @@
 		E4D715BD1D6B5AE200A944CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D715BC1D6B5AE200A944CA /* Assets.xcassets */; };
 		E4D715C01D6B5AE200A944CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D715BE1D6B5AE200A944CA /* LaunchScreen.storyboard */; };
 		E4D715D31D6B5FA200A944CA /* DYCoreDataManagedContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D715CA1D6B5FA200A944CA /* DYCoreDataManagedContext.m */; };
-		E4D715D41D6B5FA200A944CA /* DYNetworingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D715CD1D6B5FA200A944CA /* DYNetworingManager.m */; };
-		E4D715D51D6B5FA200A944CA /* DYNetworingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D715CF1D6B5FA200A944CA /* DYNetworingOperation.m */; };
+		E4D715D41D6B5FA200A944CA /* DYNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D715CD1D6B5FA200A944CA /* DYNetworkingManager.m */; };
+		E4D715D51D6B5FA200A944CA /* DYNetworkingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D715CF1D6B5FA200A944CA /* DYNetworkingOperation.m */; };
 		E4D715D61D6B5FA200A944CA /* DYWeakTimerTargetObj.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D715D21D6B5FA200A944CA /* DYWeakTimerTargetObj.m */; };
 /* End PBXBuildFile section */
 
@@ -34,10 +34,10 @@
 		E4D715C11D6B5AE200A944CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4D715C91D6B5FA200A944CA /* DYCoreDataManagedContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYCoreDataManagedContext.h; sourceTree = "<group>"; };
 		E4D715CA1D6B5FA200A944CA /* DYCoreDataManagedContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYCoreDataManagedContext.m; sourceTree = "<group>"; };
-		E4D715CC1D6B5FA200A944CA /* DYNetworingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNetworingManager.h; sourceTree = "<group>"; };
-		E4D715CD1D6B5FA200A944CA /* DYNetworingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNetworingManager.m; sourceTree = "<group>"; };
-		E4D715CE1D6B5FA200A944CA /* DYNetworingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNetworingOperation.h; sourceTree = "<group>"; };
-		E4D715CF1D6B5FA200A944CA /* DYNetworingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNetworingOperation.m; sourceTree = "<group>"; };
+		E4D715CC1D6B5FA200A944CA /* DYNetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNetworkingManager.h; sourceTree = "<group>"; };
+		E4D715CD1D6B5FA200A944CA /* DYNetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNetworkingManager.m; sourceTree = "<group>"; };
+		E4D715CE1D6B5FA200A944CA /* DYNetworkingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNetworkingOperation.h; sourceTree = "<group>"; };
+		E4D715CF1D6B5FA200A944CA /* DYNetworkingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNetworkingOperation.m; sourceTree = "<group>"; };
 		E4D715D11D6B5FA200A944CA /* DYWeakTimerTargetObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYWeakTimerTargetObj.h; sourceTree = "<group>"; };
 		E4D715D21D6B5FA200A944CA /* DYWeakTimerTargetObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYWeakTimerTargetObj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,10 +117,10 @@
 		E4D715CB1D6B5FA200A944CA /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				E4D715CC1D6B5FA200A944CA /* DYNetworingManager.h */,
-				E4D715CD1D6B5FA200A944CA /* DYNetworingManager.m */,
-				E4D715CE1D6B5FA200A944CA /* DYNetworingOperation.h */,
-				E4D715CF1D6B5FA200A944CA /* DYNetworingOperation.m */,
+				E4D715CC1D6B5FA200A944CA /* DYNetworkingManager.h */,
+				E4D715CD1D6B5FA200A944CA /* DYNetworkingManager.m */,
+				E4D715CE1D6B5FA200A944CA /* DYNetworkingOperation.h */,
+				E4D715CF1D6B5FA200A944CA /* DYNetworkingOperation.m */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -174,6 +174,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -208,8 +209,8 @@
 				E4D715B51D6B5AE200A944CA /* ViewController.m in Sources */,
 				E4D715D61D6B5FA200A944CA /* DYWeakTimerTargetObj.m in Sources */,
 				E4D715D31D6B5FA200A944CA /* DYCoreDataManagedContext.m in Sources */,
-				E4D715D41D6B5FA200A944CA /* DYNetworingManager.m in Sources */,
-				E4D715D51D6B5FA200A944CA /* DYNetworingOperation.m in Sources */,
+				E4D715D41D6B5FA200A944CA /* DYNetworkingManager.m in Sources */,
+				E4D715D51D6B5FA200A944CA /* DYNetworkingOperation.m in Sources */,
 				E4D715B21D6B5AE200A944CA /* AppDelegate.m in Sources */,
 				E4D715AF1D6B5AE200A944CA /* main.m in Sources */,
 				E4D715BB1D6B5AE200A944CA /* DYToolsDemo.xcdatamodeld in Sources */,
@@ -361,6 +362,7 @@
 				E4D715C61D6B5AE200A944CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

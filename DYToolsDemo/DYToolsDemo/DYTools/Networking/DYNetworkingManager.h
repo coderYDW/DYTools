@@ -19,7 +19,7 @@ typedef enum {
     RequestTypePost,
 } RequestType;
 
-@interface DYNetworingManager : AFHTTPSessionManager
+@interface DYNetworkingManager : AFHTTPSessionManager
 
 /**
  *  单例方法

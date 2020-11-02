@@ -6,9 +6,9 @@
 //  Copyright © 2016年 DovYoung. All rights reserved.
 //
 
-#import "DYNetworingOperation.h"
+#import "DYNetworkingOperation.h"
 
-@implementation DYNetworingOperation
+@implementation DYNetworkingOperation
 
 + (void)requestOperationWithParameters:(NSDictionary *)parameters success:(void(^)(id response))success failure:(void(^)(NSError *error))failure {
     

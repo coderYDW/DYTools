@@ -6,18 +6,18 @@
 //  Copyright © 2016年 DovYoung. All rights reserved.
 //
 
-#import "DYNetworingManager.h"
+#import "DYNetworkingManager.h"
 
-@interface DYNetworingManager ()
+@interface DYNetworkingManager ()
 
 @end
 
 
-@implementation DYNetworingManager
+@implementation DYNetworkingManager
 
 + (instancetype)sharedManager {
 
-    static DYNetworingManager *manager;
+    static DYNetworkingManager *manager;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         manager = [[self alloc] init];

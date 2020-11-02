@@ -6,12 +6,12 @@
 //  Copyright © 2016年 DovYoung. All rights reserved.
 //
 
-#import "DYNetworingManager.h"
+#import "DYNetworkingManager.h"
 
 //设置请求类型
 #define kRequestType RequestTypeGet
 
-@interface DYNetworingOperation : DYNetworingManager
+@interface DYNetworkingOperation : DYNetworkingManager
 
 /**
  *  网络业务层的封装
