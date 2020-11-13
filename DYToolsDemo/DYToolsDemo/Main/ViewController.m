@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "DWRegularTool.h"
+#import "DWScrollTextViewController.h"
 
 @interface ViewController ()
 
@@ -23,6 +24,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)showScrollText:(id)sender {
+    DWScrollTextViewController *stVC = [DWScrollTextViewController new];
+    [self.navigationController pushViewController:stVC animated:YES];
 }
 
 @end

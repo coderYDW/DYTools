@@ -9,6 +9,22 @@
 /* Begin PBXBuildFile section */
 		189CEB36255D0C2700444282 /* DWRegularTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEB35255D0C2700444282 /* DWRegularTool.m */; };
 		189CEB43255D16F500444282 /* DWRegularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEB42255D16F500444282 /* DWRegularViewController.m */; };
+		189CEB4B255E2CEE00444282 /* LDScrollTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEB47255E2CED00444282 /* LDScrollTextView.m */; };
+		189CEB4C255E2CEE00444282 /* LDSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEB48255E2CED00444282 /* LDSlideView.m */; };
+		189CEB7C255E30B400444282 /* UILabel+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEB5E255E30B400444282 /* UILabel+extension.m */; };
+		189CEB7D255E30B400444282 /* NSArray+Sudoku.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEB5F255E30B400444282 /* NSArray+Sudoku.m */; };
+		189CEB7E255E30B400444282 /* PDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEB62255E30B400444282 /* PDFView.m */; };
+		189CEB7F255E30B400444282 /* NSData+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEB64255E30B400444282 /* NSData+MD5.m */; };
+		189CEB80255E30B400444282 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEB69255E30B400444282 /* NSString+MD5.m */; };
+		189CEB81255E30B400444282 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 189CEB6A255E30B400444282 /* LICENSE.txt */; };
+		189CEB82255E30B400444282 /* UIImage+PDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEB6B255E30B400444282 /* UIImage+PDF.m */; };
+		189CEB83255E30B400444282 /* UIView+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEB6C255E30B400444282 /* UIView+Image.m */; };
+		189CEB86255E30B400444282 /* UIView+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEB73255E30B400444282 /* UIView+NJ.m */; };
+		189CEB87255E30B400444282 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEB75255E30B400444282 /* NSString+Extension.m */; };
+		189CEB88255E30B400444282 /* UIView+shadowAndRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEB76255E30B400444282 /* UIView+shadowAndRadius.m */; };
+		189CEB8A255E30B400444282 /* UIButton+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEB78255E30B400444282 /* UIButton+extension.m */; };
+		189CEB8B255E30B400444282 /* NSString+Chinese.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEB7B255E30B400444282 /* NSString+Chinese.m */; };
+		189CEBA4255E38FD00444282 /* DWScrollTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEBA3255E38FD00444282 /* DWScrollTextViewController.m */; };
 		4DBBD7A19969F939009B1CDB /* libPods-DYToolsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704E1228629CC586397A36F8 /* libPods-DYToolsDemo.a */; };
 		E4D715AF1D6B5AE200A944CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D715AE1D6B5AE200A944CA /* main.m */; };
 		E4D715B21D6B5AE200A944CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D715B11D6B5AE200A944CA /* AppDelegate.m */; };
@@ -28,6 +44,38 @@
 		189CEB35255D0C2700444282 /* DWRegularTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWRegularTool.m; sourceTree = "<group>"; };
 		189CEB41255D16F500444282 /* DWRegularViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWRegularViewController.h; sourceTree = "<group>"; };
 		189CEB42255D16F500444282 /* DWRegularViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWRegularViewController.m; sourceTree = "<group>"; };
+		189CEB47255E2CED00444282 /* LDScrollTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDScrollTextView.m; sourceTree = "<group>"; };
+		189CEB48255E2CED00444282 /* LDSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDSlideView.m; sourceTree = "<group>"; };
+		189CEB49255E2CED00444282 /* LDScrollTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDScrollTextView.h; sourceTree = "<group>"; };
+		189CEB4A255E2CED00444282 /* LDSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDSlideView.h; sourceTree = "<group>"; };
+		189CEB52255E2E5900444282 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		189CEB5C255E30B400444282 /* UIView+shadowAndRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+shadowAndRadius.h"; sourceTree = "<group>"; };
+		189CEB5D255E30B400444282 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		189CEB5E255E30B400444282 /* UILabel+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+extension.m"; sourceTree = "<group>"; };
+		189CEB5F255E30B400444282 /* NSArray+Sudoku.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Sudoku.m"; sourceTree = "<group>"; };
+		189CEB60255E30B400444282 /* UIButton+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+extension.h"; sourceTree = "<group>"; };
+		189CEB62255E30B400444282 /* PDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFView.m; sourceTree = "<group>"; };
+		189CEB63255E30B400444282 /* UIImage+PDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PDF.h"; sourceTree = "<group>"; };
+		189CEB64255E30B400444282 /* NSData+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MD5.m"; sourceTree = "<group>"; };
+		189CEB65255E30B400444282 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		189CEB66255E30B400444282 /* UIView+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Image.h"; sourceTree = "<group>"; };
+		189CEB67255E30B400444282 /* PDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFView.h; sourceTree = "<group>"; };
+		189CEB68255E30B400444282 /* NSData+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MD5.h"; sourceTree = "<group>"; };
+		189CEB69255E30B400444282 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		189CEB6A255E30B400444282 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		189CEB6B255E30B400444282 /* UIImage+PDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PDF.m"; sourceTree = "<group>"; };
+		189CEB6C255E30B400444282 /* UIView+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Image.m"; sourceTree = "<group>"; };
+		189CEB6D255E30B400444282 /* NSString+Chinese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Chinese.h"; sourceTree = "<group>"; };
+		189CEB73255E30B400444282 /* UIView+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NJ.m"; sourceTree = "<group>"; };
+		189CEB74255E30B400444282 /* UILabel+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+extension.h"; sourceTree = "<group>"; };
+		189CEB75255E30B400444282 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		189CEB76255E30B400444282 /* UIView+shadowAndRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+shadowAndRadius.m"; sourceTree = "<group>"; };
+		189CEB78255E30B400444282 /* UIButton+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+extension.m"; sourceTree = "<group>"; };
+		189CEB79255E30B400444282 /* NSArray+Sudoku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Sudoku.h"; sourceTree = "<group>"; };
+		189CEB7A255E30B400444282 /* UIView+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NJ.h"; sourceTree = "<group>"; };
+		189CEB7B255E30B400444282 /* NSString+Chinese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Chinese.m"; sourceTree = "<group>"; };
+		189CEBA2255E38FD00444282 /* DWScrollTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWScrollTextViewController.h; sourceTree = "<group>"; };
+		189CEBA3255E38FD00444282 /* DWScrollTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWScrollTextViewController.m; sourceTree = "<group>"; };
 		704E1228629CC586397A36F8 /* libPods-DYToolsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DYToolsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75692BFC2160F4A512FEE920 /* Pods-DYToolsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYToolsDemo.release.xcconfig"; path = "Target Support Files/Pods-DYToolsDemo/Pods-DYToolsDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D3BD408137B5F7606FB266D1 /* Pods-DYToolsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYToolsDemo.debug.xcconfig"; path = "Target Support Files/Pods-DYToolsDemo/Pods-DYToolsDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -92,6 +140,107 @@
 			path = Regular;
 			sourceTree = "<group>";
 		};
+		189CEB46255E2CED00444282 /* ScrollText */ = {
+			isa = PBXGroup;
+			children = (
+				189CEB49255E2CED00444282 /* LDScrollTextView.h */,
+				189CEB47255E2CED00444282 /* LDScrollTextView.m */,
+				189CEB4A255E2CED00444282 /* LDSlideView.h */,
+				189CEB48255E2CED00444282 /* LDSlideView.m */,
+			);
+			path = ScrollText;
+			sourceTree = "<group>";
+		};
+		189CEB5A255E30B400444282 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				189CEB9A255E314300444282 /* View */,
+				189CEB94255E311100444282 /* String */,
+				189CEB90255E30F100444282 /* Label */,
+				189CEB98255E313600444282 /* Array */,
+				189CEB92255E30FF00444282 /* Button */,
+				189CEB61255E30B400444282 /* UIImage+PDF */,
+			);
+			name = Category;
+			path = "../../../../SVN/RentCar Revisions/QHZC/src/component/Category";
+			sourceTree = "<group>";
+		};
+		189CEB61255E30B400444282 /* UIImage+PDF */ = {
+			isa = PBXGroup;
+			children = (
+				189CEB67255E30B400444282 /* PDFView.h */,
+				189CEB62255E30B400444282 /* PDFView.m */,
+				189CEB63255E30B400444282 /* UIImage+PDF.h */,
+				189CEB6B255E30B400444282 /* UIImage+PDF.m */,
+				189CEB66255E30B400444282 /* UIView+Image.h */,
+				189CEB6C255E30B400444282 /* UIView+Image.m */,
+				189CEB6A255E30B400444282 /* LICENSE.txt */,
+			);
+			path = "UIImage+PDF";
+			sourceTree = "<group>";
+		};
+		189CEB90255E30F100444282 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				189CEB5E255E30B400444282 /* UILabel+extension.m */,
+				189CEB74255E30B400444282 /* UILabel+extension.h */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		189CEB92255E30FF00444282 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				189CEB60255E30B400444282 /* UIButton+extension.h */,
+				189CEB78255E30B400444282 /* UIButton+extension.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		189CEB94255E311100444282 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				189CEB68255E30B400444282 /* NSData+MD5.h */,
+				189CEB64255E30B400444282 /* NSData+MD5.m */,
+				189CEB65255E30B400444282 /* NSString+MD5.h */,
+				189CEB69255E30B400444282 /* NSString+MD5.m */,
+				189CEB5D255E30B400444282 /* NSString+Extension.h */,
+				189CEB75255E30B400444282 /* NSString+Extension.m */,
+				189CEB6D255E30B400444282 /* NSString+Chinese.h */,
+				189CEB7B255E30B400444282 /* NSString+Chinese.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		189CEB98255E313600444282 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				189CEB79255E30B400444282 /* NSArray+Sudoku.h */,
+				189CEB5F255E30B400444282 /* NSArray+Sudoku.m */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		189CEB9A255E314300444282 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				189CEB7A255E30B400444282 /* UIView+NJ.h */,
+				189CEB73255E30B400444282 /* UIView+NJ.m */,
+				189CEB5C255E30B400444282 /* UIView+shadowAndRadius.h */,
+				189CEB76255E30B400444282 /* UIView+shadowAndRadius.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		189CEBA1255E38CE00444282 /* scrollText */ = {
+			isa = PBXGroup;
+			children = (
+				189CEBA2255E38FD00444282 /* DWScrollTextViewController.h */,
+				189CEBA3255E38FD00444282 /* DWScrollTextViewController.m */,
+			);
+			path = scrollText;
+			sourceTree = "<group>";
+		};
 		68A0C416B40DF1BE007479D6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,9 +270,11 @@
 		E4D715AC1D6B5AE200A944CA /* DYToolsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				189CEB3D255D15AA00444282 /* Main */,
+				189CEBA1255E38CE00444282 /* scrollText */,
 				189CEB3F255D16A000444282 /* Regular */,
+				189CEB3D255D15AA00444282 /* Main */,
 				E4D715C71D6B5B3500A944CA /* DYTools */,
+				189CEB5A255E30B400444282 /* Category */,
 				E4D715AD1D6B5AE200A944CA /* Supporting Files */,
 			);
 			path = DYToolsDemo;
@@ -139,6 +290,7 @@
 				E4D715B01D6B5AE200A944CA /* AppDelegate.h */,
 				E4D715B11D6B5AE200A944CA /* AppDelegate.m */,
 				E4D715AE1D6B5AE200A944CA /* main.m */,
+				189CEB52255E2E5900444282 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,6 +298,7 @@
 		E4D715C71D6B5B3500A944CA /* DYTools */ = {
 			isa = PBXGroup;
 			children = (
+				189CEB46255E2CED00444282 /* ScrollText */,
 				189CEB33255D0BD400444282 /* Regular */,
 				E4D715C81D6B5FA200A944CA /* CoreData */,
 				E4D715CB1D6B5FA200A944CA /* Networking */,
@@ -252,6 +405,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189CEB81255E30B400444282 /* LICENSE.txt in Resources */,
 				E4D715C01D6B5AE200A944CA /* LaunchScreen.storyboard in Resources */,
 				E4D715BD1D6B5AE200A944CA /* Assets.xcassets in Resources */,
 				E4D715B81D6B5AE200A944CA /* Main.storyboard in Resources */,
@@ -290,16 +444,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189CEB88255E30B400444282 /* UIView+shadowAndRadius.m in Sources */,
+				189CEB4B255E2CEE00444282 /* LDScrollTextView.m in Sources */,
 				E4D715B51D6B5AE200A944CA /* ViewController.m in Sources */,
 				E4D715D61D6B5FA200A944CA /* DYWeakTimerTargetObj.m in Sources */,
+				189CEB7F255E30B400444282 /* NSData+MD5.m in Sources */,
+				189CEB80255E30B400444282 /* NSString+MD5.m in Sources */,
+				189CEB86255E30B400444282 /* UIView+NJ.m in Sources */,
+				189CEBA4255E38FD00444282 /* DWScrollTextViewController.m in Sources */,
+				189CEB8A255E30B400444282 /* UIButton+extension.m in Sources */,
 				E4D715D31D6B5FA200A944CA /* DYCoreDataManagedContext.m in Sources */,
+				189CEB82255E30B400444282 /* UIImage+PDF.m in Sources */,
+				189CEB4C255E2CEE00444282 /* LDSlideView.m in Sources */,
 				189CEB36255D0C2700444282 /* DWRegularTool.m in Sources */,
+				189CEB83255E30B400444282 /* UIView+Image.m in Sources */,
 				E4D715D41D6B5FA200A944CA /* DYNetworkingManager.m in Sources */,
+				189CEB87255E30B400444282 /* NSString+Extension.m in Sources */,
+				189CEB7C255E30B400444282 /* UILabel+extension.m in Sources */,
 				E4D715D51D6B5FA200A944CA /* DYNetworkingOperation.m in Sources */,
 				E4D715B21D6B5AE200A944CA /* AppDelegate.m in Sources */,
+				189CEB7E255E30B400444282 /* PDFView.m in Sources */,
 				E4D715AF1D6B5AE200A944CA /* main.m in Sources */,
+				189CEB7D255E30B400444282 /* NSArray+Sudoku.m in Sources */,
 				189CEB43255D16F500444282 /* DWRegularViewController.m in Sources */,
 				E4D715BB1D6B5AE200A944CA /* DYToolsDemo.xcdatamodeld in Sources */,
+				189CEB8B255E30B400444282 /* NSString+Chinese.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +581,8 @@
 			baseConfigurationReference = D3BD408137B5F7606FB266D1 /* Pods-DYToolsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DYToolsDemo/$(PROJECTNAME)PrefixHeader.pch";
 				INFOPLIST_FILE = DYToolsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dov.ios.DYToolsDemo;
@@ -424,6 +595,8 @@
 			baseConfigurationReference = 75692BFC2160F4A512FEE920 /* Pods-DYToolsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DYToolsDemo/$(PROJECTNAME)PrefixHeader.pch";
 				INFOPLIST_FILE = DYToolsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dov.ios.DYToolsDemo;

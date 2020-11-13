@@ -7,5 +7,6 @@ target 'DYToolsDemo' do
 
   # Pods for QHZC _ONLINE
 pod 'AFNetworking'
+pod 'Masonry'
 
 end

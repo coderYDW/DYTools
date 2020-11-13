@@ -21,17 +21,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i4f-yQ-d78">
-                                <rect key="frame" x="168.5" y="188" width="77" height="30"/>
+                                <rect key="frame" x="168.5" y="128" width="77" height="30"/>
                                 <state key="normal" title="正则表达式"/>
                                 <connections>
                                     <segue destination="FbO-C1-Osw" kind="show" id="ddv-8w-xSU"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqX-VI-caM">
+                                <rect key="frame" x="176" y="198" width="62" height="30"/>
+                                <state key="normal" title="文字滚动"/>
+                                <connections>
+                                    <action selector="showScrollText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MGN-pd-P69"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="i4f-yQ-d78" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="BW3-ed-90k"/>
+                            <constraint firstItem="i4f-yQ-d78" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="BW3-ed-90k"/>
                             <constraint firstItem="i4f-yQ-d78" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EsX-7K-9lB"/>
+                            <constraint firstItem="hqX-VI-caM" firstAttribute="top" secondItem="i4f-yQ-d78" secondAttribute="bottom" constant="40" id="JfS-wC-7tx"/>
+                            <constraint firstItem="hqX-VI-caM" firstAttribute="centerX" secondItem="i4f-yQ-d78" secondAttribute="centerX" id="Q9s-SF-5hs"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Main" id="rar-SR-N0C"/>
