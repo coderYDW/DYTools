@@ -43,15 +43,13 @@
         failure(task,error);
     };
     
-    
     //设置网络返回的数据类型,如果解析不出来数据,要查看是不是数据类型不同,不同的话要进行格式设置
     self.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript", @"text/html",nil];
     
-    
     if (type == RequestTypeGet) {
-        [self GET:URLString parameters:parameters progress:downloadProgress success:successBlock failure:failureBlock];
+        [self GET:URLString parameters:parameters headers:nil progress:downloadProgress success:successBlock failure:failureBlock];
     } else if (type == RequestTypePost) {
-        [self POST:URLString parameters:parameters progress:downloadProgress success:successBlock failure:failureBlock];
+        [self POST:URLString parameters:parameters headers:nil progress:downloadProgress success:successBlock failure:failureBlock];
     }
     
 

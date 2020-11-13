@@ -15,7 +15,7 @@
     //将业务层的URLString放在这里
     NSString *URLString = @"https://httpbin.org/get";
     
-    [[DYNetworingManager sharedManager] requestWithType:kRequestType URLString:URLString parameters:parameters progress:nil success:^(NSURLSessionDataTask *task, id response) {
+    [[DYNetworkingManager sharedManager] requestWithType:kRequestType URLString:URLString parameters:parameters progress:nil success:^(NSURLSessionDataTask *task, id response) {
         
         success(response);
         

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		189CEB36255D0C2700444282 /* DWRegularTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEB35255D0C2700444282 /* DWRegularTool.m */; };
+		189CEB43255D16F500444282 /* DWRegularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEB42255D16F500444282 /* DWRegularViewController.m */; };
+		4DBBD7A19969F939009B1CDB /* libPods-DYToolsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704E1228629CC586397A36F8 /* libPods-DYToolsDemo.a */; };
 		E4D715AF1D6B5AE200A944CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D715AE1D6B5AE200A944CA /* main.m */; };
 		E4D715B21D6B5AE200A944CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D715B11D6B5AE200A944CA /* AppDelegate.m */; };
 		E4D715B51D6B5AE200A944CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D715B41D6B5AE200A944CA /* ViewController.m */; };
@@ -21,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		189CEB34255D0C2700444282 /* DWRegularTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWRegularTool.h; sourceTree = "<group>"; };
+		189CEB35255D0C2700444282 /* DWRegularTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWRegularTool.m; sourceTree = "<group>"; };
+		189CEB41255D16F500444282 /* DWRegularViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWRegularViewController.h; sourceTree = "<group>"; };
+		189CEB42255D16F500444282 /* DWRegularViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWRegularViewController.m; sourceTree = "<group>"; };
+		704E1228629CC586397A36F8 /* libPods-DYToolsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DYToolsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75692BFC2160F4A512FEE920 /* Pods-DYToolsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYToolsDemo.release.xcconfig"; path = "Target Support Files/Pods-DYToolsDemo/Pods-DYToolsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D3BD408137B5F7606FB266D1 /* Pods-DYToolsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYToolsDemo.debug.xcconfig"; path = "Target Support Files/Pods-DYToolsDemo/Pods-DYToolsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E4D715AA1D6B5AE200A944CA /* DYToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D715AE1D6B5AE200A944CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4D715B01D6B5AE200A944CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,17 +57,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBBD7A19969F939009B1CDB /* libPods-DYToolsDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		189CEB33255D0BD400444282 /* Regular */ = {
+			isa = PBXGroup;
+			children = (
+				189CEB34255D0C2700444282 /* DWRegularTool.h */,
+				189CEB35255D0C2700444282 /* DWRegularTool.m */,
+			);
+			path = Regular;
+			sourceTree = "<group>";
+		};
+		189CEB3D255D15AA00444282 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E4D715B31D6B5AE200A944CA /* ViewController.h */,
+				E4D715B41D6B5AE200A944CA /* ViewController.m */,
+				E4D715B61D6B5AE200A944CA /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		189CEB3F255D16A000444282 /* Regular */ = {
+			isa = PBXGroup;
+			children = (
+				189CEB41255D16F500444282 /* DWRegularViewController.h */,
+				189CEB42255D16F500444282 /* DWRegularViewController.m */,
+			);
+			path = Regular;
+			sourceTree = "<group>";
+		};
+		68A0C416B40DF1BE007479D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				704E1228629CC586397A36F8 /* libPods-DYToolsDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E4D715A11D6B5AE200A944CA = {
 			isa = PBXGroup;
 			children = (
 				E4D715AC1D6B5AE200A944CA /* DYToolsDemo */,
 				E4D715AB1D6B5AE200A944CA /* Products */,
+				FE2C44BCBE96FE7899B14CF7 /* Pods */,
+				68A0C416B40DF1BE007479D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,16 +121,9 @@
 		E4D715AC1D6B5AE200A944CA /* DYToolsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				189CEB3D255D15AA00444282 /* Main */,
+				189CEB3F255D16A000444282 /* Regular */,
 				E4D715C71D6B5B3500A944CA /* DYTools */,
-				E4D715B01D6B5AE200A944CA /* AppDelegate.h */,
-				E4D715B11D6B5AE200A944CA /* AppDelegate.m */,
-				E4D715B31D6B5AE200A944CA /* ViewController.h */,
-				E4D715B41D6B5AE200A944CA /* ViewController.m */,
-				E4D715B61D6B5AE200A944CA /* Main.storyboard */,
-				E4D715BC1D6B5AE200A944CA /* Assets.xcassets */,
-				E4D715BE1D6B5AE200A944CA /* LaunchScreen.storyboard */,
-				E4D715C11D6B5AE200A944CA /* Info.plist */,
-				E4D715B91D6B5AE200A944CA /* DYToolsDemo.xcdatamodeld */,
 				E4D715AD1D6B5AE200A944CA /* Supporting Files */,
 			);
 			path = DYToolsDemo;
@@ -90,6 +132,12 @@
 		E4D715AD1D6B5AE200A944CA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E4D715B91D6B5AE200A944CA /* DYToolsDemo.xcdatamodeld */,
+				E4D715BE1D6B5AE200A944CA /* LaunchScreen.storyboard */,
+				E4D715C11D6B5AE200A944CA /* Info.plist */,
+				E4D715BC1D6B5AE200A944CA /* Assets.xcassets */,
+				E4D715B01D6B5AE200A944CA /* AppDelegate.h */,
+				E4D715B11D6B5AE200A944CA /* AppDelegate.m */,
 				E4D715AE1D6B5AE200A944CA /* main.m */,
 			);
 			name = "Supporting Files";
@@ -98,6 +146,7 @@
 		E4D715C71D6B5B3500A944CA /* DYTools */ = {
 			isa = PBXGroup;
 			children = (
+				189CEB33255D0BD400444282 /* Regular */,
 				E4D715C81D6B5FA200A944CA /* CoreData */,
 				E4D715CB1D6B5FA200A944CA /* Networking */,
 				E4D715D01D6B5FA200A944CA /* WeakTimer */,
@@ -134,6 +183,15 @@
 			path = WeakTimer;
 			sourceTree = "<group>";
 		};
+		FE2C44BCBE96FE7899B14CF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3BD408137B5F7606FB266D1 /* Pods-DYToolsDemo.debug.xcconfig */,
+				75692BFC2160F4A512FEE920 /* Pods-DYToolsDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4D715C41D6B5AE200A944CA /* Build configuration list for PBXNativeTarget "DYToolsDemo" */;
 			buildPhases = (
+				11EFB9A5FA1D51844514D108 /* [CP] Check Pods Manifest.lock */,
 				E4D715A61D6B5AE200A944CA /* Sources */,
 				E4D715A71D6B5AE200A944CA /* Frameworks */,
 				E4D715A81D6B5AE200A944CA /* Resources */,
@@ -201,6 +260,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11EFB9A5FA1D51844514D108 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DYToolsDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E4D715A61D6B5AE200A944CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -209,10 +293,12 @@
 				E4D715B51D6B5AE200A944CA /* ViewController.m in Sources */,
 				E4D715D61D6B5FA200A944CA /* DYWeakTimerTargetObj.m in Sources */,
 				E4D715D31D6B5FA200A944CA /* DYCoreDataManagedContext.m in Sources */,
+				189CEB36255D0C2700444282 /* DWRegularTool.m in Sources */,
 				E4D715D41D6B5FA200A944CA /* DYNetworkingManager.m in Sources */,
 				E4D715D51D6B5FA200A944CA /* DYNetworkingOperation.m in Sources */,
 				E4D715B21D6B5AE200A944CA /* AppDelegate.m in Sources */,
 				E4D715AF1D6B5AE200A944CA /* main.m in Sources */,
+				189CEB43255D16F500444282 /* DWRegularViewController.m in Sources */,
 				E4D715BB1D6B5AE200A944CA /* DYToolsDemo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +409,7 @@
 		};
 		E4D715C51D6B5AE200A944CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3BD408137B5F7606FB266D1 /* Pods-DYToolsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DYToolsDemo/Info.plist;
@@ -334,6 +421,7 @@
 		};
 		E4D715C61D6B5AE200A944CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75692BFC2160F4A512FEE920 /* Pods-DYToolsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DYToolsDemo/Info.plist;
