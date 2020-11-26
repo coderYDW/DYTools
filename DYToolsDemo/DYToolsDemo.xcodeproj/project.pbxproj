@@ -27,6 +27,7 @@
 		189CEBD5255E605600444282 /* NSString+Chinese.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEBC8255E605600444282 /* NSString+Chinese.m */; };
 		4DBBD7A19969F939009B1CDB /* libPods-DYToolsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704E1228629CC586397A36F8 /* libPods-DYToolsDemo.a */; };
 		E425116E256FF13E00BA6EE3 /* NSNumber+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = E425116D256FF13E00BA6EE3 /* NSNumber+Format.m */; };
+		E4251174256FF29700BA6EE3 /* DYHudTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E4251172256FF29700BA6EE3 /* DYHudTool.m */; };
 		E4D715AF1D6B5AE200A944CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D715AE1D6B5AE200A944CA /* main.m */; };
 		E4D715B21D6B5AE200A944CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D715B11D6B5AE200A944CA /* AppDelegate.m */; };
 		E4D715B51D6B5AE200A944CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D715B41D6B5AE200A944CA /* ViewController.m */; };
@@ -82,6 +83,8 @@
 		D3BD408137B5F7606FB266D1 /* Pods-DYToolsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYToolsDemo.debug.xcconfig"; path = "Target Support Files/Pods-DYToolsDemo/Pods-DYToolsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E425116C256FF13E00BA6EE3 /* NSNumber+Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Format.h"; sourceTree = "<group>"; };
 		E425116D256FF13E00BA6EE3 /* NSNumber+Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Format.m"; sourceTree = "<group>"; };
+		E4251172256FF29700BA6EE3 /* DYHudTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYHudTool.m; sourceTree = "<group>"; };
+		E4251173256FF29700BA6EE3 /* DYHudTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYHudTool.h; sourceTree = "<group>"; };
 		E4D715AA1D6B5AE200A944CA /* DYToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D715AE1D6B5AE200A944CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4D715B01D6B5AE200A944CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -261,6 +264,15 @@
 			path = Number;
 			sourceTree = "<group>";
 		};
+		E4251171256FF29700BA6EE3 /* DYHudTool */ = {
+			isa = PBXGroup;
+			children = (
+				E4251173256FF29700BA6EE3 /* DYHudTool.h */,
+				E4251172256FF29700BA6EE3 /* DYHudTool.m */,
+			);
+			path = DYHudTool;
+			sourceTree = "<group>";
+		};
 		E4D715A11D6B5AE200A944CA = {
 			isa = PBXGroup;
 			children = (
@@ -310,6 +322,7 @@
 		E4D715C71D6B5B3500A944CA /* DYTools */ = {
 			isa = PBXGroup;
 			children = (
+				E4251171256FF29700BA6EE3 /* DYHudTool */,
 				189CEB46255E2CED00444282 /* ScrollText */,
 				189CEB33255D0BD400444282 /* Regular */,
 				E4D715C81D6B5FA200A944CA /* CoreData */,
@@ -458,6 +471,7 @@
 			files = (
 				189CEBCF255E605600444282 /* UIButton+extension.m in Sources */,
 				189CEBCE255E605600444282 /* UILabel+extension.m in Sources */,
+				E4251174256FF29700BA6EE3 /* DYHudTool.m in Sources */,
 				189CEBD0255E605600444282 /* UIView+NJ.m in Sources */,
 				189CEB4B255E2CEE00444282 /* LDScrollTextView.m in Sources */,
 				E4D715B51D6B5AE200A944CA /* ViewController.m in Sources */,

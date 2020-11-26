@@ -34,13 +34,22 @@
                                     <action selector="showScrollText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MGN-pd-P69"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pU4-3k-Jcp">
+                                <rect key="frame" x="176" y="248" width="62" height="30"/>
+                                <state key="normal" title="弹窗提示"/>
+                                <connections>
+                                    <action selector="showHUD:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Hd-4g-dfO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="i4f-yQ-d78" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="BW3-ed-90k"/>
                             <constraint firstItem="i4f-yQ-d78" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EsX-7K-9lB"/>
                             <constraint firstItem="hqX-VI-caM" firstAttribute="top" secondItem="i4f-yQ-d78" secondAttribute="bottom" constant="40" id="JfS-wC-7tx"/>
+                            <constraint firstItem="pU4-3k-Jcp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MUZ-Xy-rSF"/>
                             <constraint firstItem="hqX-VI-caM" firstAttribute="centerX" secondItem="i4f-yQ-d78" secondAttribute="centerX" id="Q9s-SF-5hs"/>
+                            <constraint firstItem="pU4-3k-Jcp" firstAttribute="top" secondItem="hqX-VI-caM" secondAttribute="bottom" constant="20" id="tv4-7B-mEy"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Main" id="rar-SR-N0C"/>
