@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "DWRegularTool.h"
 #import "DWScrollTextViewController.h"
+#import "NSNumber+Format.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
     
 }
 

@@ -26,6 +26,7 @@
 		189CEBD4255E605600444282 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEBC7255E605600444282 /* NSString+MD5.m */; };
 		189CEBD5255E605600444282 /* NSString+Chinese.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CEBC8255E605600444282 /* NSString+Chinese.m */; };
 		4DBBD7A19969F939009B1CDB /* libPods-DYToolsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704E1228629CC586397A36F8 /* libPods-DYToolsDemo.a */; };
+		E425116E256FF13E00BA6EE3 /* NSNumber+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = E425116D256FF13E00BA6EE3 /* NSNumber+Format.m */; };
 		E4D715AF1D6B5AE200A944CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D715AE1D6B5AE200A944CA /* main.m */; };
 		E4D715B21D6B5AE200A944CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D715B11D6B5AE200A944CA /* AppDelegate.m */; };
 		E4D715B51D6B5AE200A944CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D715B41D6B5AE200A944CA /* ViewController.m */; };
@@ -79,6 +80,8 @@
 		704E1228629CC586397A36F8 /* libPods-DYToolsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DYToolsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75692BFC2160F4A512FEE920 /* Pods-DYToolsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYToolsDemo.release.xcconfig"; path = "Target Support Files/Pods-DYToolsDemo/Pods-DYToolsDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D3BD408137B5F7606FB266D1 /* Pods-DYToolsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYToolsDemo.debug.xcconfig"; path = "Target Support Files/Pods-DYToolsDemo/Pods-DYToolsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E425116C256FF13E00BA6EE3 /* NSNumber+Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Format.h"; sourceTree = "<group>"; };
+		E425116D256FF13E00BA6EE3 /* NSNumber+Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Format.m"; sourceTree = "<group>"; };
 		E4D715AA1D6B5AE200A944CA /* DYToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D715AE1D6B5AE200A944CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4D715B01D6B5AE200A944CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -163,10 +166,10 @@
 		189CEBA8255E605600444282 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				E425116B256FF0F200BA6EE3 /* Number */,
 				189CEBA9255E605600444282 /* Array */,
 				189CEBAC255E605600444282 /* UIImage+PDF */,
 				189CEBB4255E605600444282 /* Label */,
-				189CEBB7255E605600444282 /* SDWebImageCategory */,
 				189CEBB8255E605600444282 /* Button */,
 				189CEBBB255E605600444282 /* View */,
 				189CEBC0255E605600444282 /* String */,
@@ -204,13 +207,6 @@
 				189CEBB6255E605600444282 /* UILabel+extension.h */,
 			);
 			path = Label;
-			sourceTree = "<group>";
-		};
-		189CEBB7255E605600444282 /* SDWebImageCategory */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SDWebImageCategory;
 			sourceTree = "<group>";
 		};
 		189CEBB8255E605600444282 /* Button */ = {
@@ -254,6 +250,15 @@
 				704E1228629CC586397A36F8 /* libPods-DYToolsDemo.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E425116B256FF0F200BA6EE3 /* Number */ = {
+			isa = PBXGroup;
+			children = (
+				E425116C256FF13E00BA6EE3 /* NSNumber+Format.h */,
+				E425116D256FF13E00BA6EE3 /* NSNumber+Format.m */,
+			);
+			path = Number;
 			sourceTree = "<group>";
 		};
 		E4D715A11D6B5AE200A944CA = {
@@ -473,6 +478,7 @@
 				189CEBD4255E605600444282 /* NSString+MD5.m in Sources */,
 				189CEBC9255E605600444282 /* NSArray+Sudoku.m in Sources */,
 				189CEBCD255E605600444282 /* UIView+Image.m in Sources */,
+				E425116E256FF13E00BA6EE3 /* NSNumber+Format.m in Sources */,
 				189CEB43255D16F500444282 /* DWRegularViewController.m in Sources */,
 				189CEBCC255E605600444282 /* UIImage+PDF.m in Sources */,
 				E4D715BB1D6B5AE200A944CA /* DYToolsDemo.xcdatamodeld in Sources */,
